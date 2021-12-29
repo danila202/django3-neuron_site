@@ -1,0 +1,110 @@
+
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+#parent {
+  justify-content:center;
+  flex-direction: row;
+  display: flex;
+}
+
+
+#parent > div {
+  border: 1px solid #01080f;
+  width: 100%;
+  height: 70px;
+  background:#1c1c24;
+  text-align: center;
+  font-size: 50px;
+  border-bottom: none;
+
+
+}
+#parent > a {
+  border: 1px solid #01080f;
+  width: 250px;
+  height: 70px;
+  background:#1c1c24;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+   border-bottom: none;
+  
+}
+
+
+img{
+  margin-top: 70px;
+  margin: auto;
+  width: 100%;
+}
+
+
+#parent>a:hover{
+  border: 1px solid #8673a1;
+  width: 250px;
+  height: 70px;
+  background:#386177;
+  color: white;
+}
+
+
+h2{
+  margin-top: 20px;
+  font-size: 50px;
+  text-align: center;
+}
+
+
+.text{
+  margin-top: 20px;
+  font-size: 23px;
+  text-align:justify;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+p{
+  line-height: 1.5;
+  text-indent:50px;
+  margin-top: 40px;
+}
+
+
+ button {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
+  height: 70px;
+  background:#1c1c24;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+   border: none;
+    transition: 1.5s;
+}
+
+
+.tablinks{
+  font-size:50px;
+  color: white;
+  background:#1c1c24 ;
+  border: none;
+}
+
+
+.tablinks:hover{
+  font-size:50px;
+  color: white;
+ background:#386177;
+}
+
+
+.tabcontent {
+    display: none;
+}
+#hidden-element {display:block;}
